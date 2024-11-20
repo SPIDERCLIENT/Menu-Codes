@@ -1,7 +1,6 @@
 public static void UnMuteAll()//UND
 {
-    GorillaPlayerScoreboardLine[] ScoreBoardLine = UnityEngine.Object.FindObjectsOfType<GorillaPlayerScoreboardLine>();
-    foreach (GorillaPlayerScoreboardLine MuteLine in ScoreBoardLine)
+    foreach (GorillaPlayerScoreboardLine MuteLine in UnityEngine.Object.FindObjectsOfType<GorillaPlayerScoreboardLine>())
     {
         if (MuteLine.linePlayer != null)
         {
