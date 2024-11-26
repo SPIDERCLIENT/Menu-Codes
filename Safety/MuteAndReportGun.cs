@@ -204,3 +204,7 @@ public static void MuteAndReportGun()//UND
 }
 
 public static VRRig pointRig;
+
+public static GameObject pointer;
+
+public static int change8 = 1;
