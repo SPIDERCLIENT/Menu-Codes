@@ -191,3 +191,7 @@ public static void UnMuteGun()//UND
 }
 
 public static VRRig pointRig;
+
+public static GameObject pointer;
+
+public static int change8 = 1;
