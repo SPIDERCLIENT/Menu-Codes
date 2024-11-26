@@ -14,3 +14,5 @@ public static void LobbyHop()//UND
         IsON = !IsON;
     }
 }
+
+private static bool IsON = false;
