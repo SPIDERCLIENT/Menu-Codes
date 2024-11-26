@@ -189,3 +189,5 @@ public static void MuteGun()//UND
         UnityEngine.Object.Destroy(pointer, Time.deltaTime);
     }
 }
+
+public static VRRig pointRig;
