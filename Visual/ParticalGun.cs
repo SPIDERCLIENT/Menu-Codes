@@ -177,3 +177,11 @@ public static void ParticalGun()//UND
         UnityEngine.Object.Destroy(pointer, Time.deltaTime);
     }
 }
+
+public static LineRenderer Line;
+
+public static int change17 = 1;
+
+public static int change8 = 1;
+
+public static GameObject pointer;
