@@ -1,0 +1,9 @@
+public static void DisableAirSwim()//UND
+{
+    if (airSwimPart != null)
+    {
+        UnityEngine.Object.Destroy(airSwimPart);
+    }
+}
+
+public static GameObject airSwimPart = null;
